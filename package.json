@@ -4,16 +4,16 @@
   "description": "Pricing component with flux",
   "main": "js/app.js",
   "dependencies": {
-    "flux": "^2.0.0",
-    "react": "^0.12.0",
+    "flux": "^3.1.2",
+    "react": "^15.5.4",
     "underscore": "^1.7.0"
   },
   "devDependencies": {
-    "browserify": "~6.2.0",
-    "envify": "~3.0.0",
-    "react": "^0.12.0",
-    "reactify": "^0.15",
-    "watchify": "~2.1.0"
+    "browserify": "~14.3.0",
+    "envify": "~4.0.0",
+    "react": "^15.5.4",
+    "reactify": "^1.1.1",
+    "watchify": "~3.9.0"
   },
   "scripts": {
     "start": "watchify -o js/bundle.js -v -d .",
